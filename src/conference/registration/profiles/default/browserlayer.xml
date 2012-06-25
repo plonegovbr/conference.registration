@@ -1,0 +1,6 @@
+<layers>
+ <layer
+     name="conference.registration"
+     interface="conference.registration.interfaces.IBrowserLayer"
+     />
+</layers>

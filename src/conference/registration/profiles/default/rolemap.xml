@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rolemap>
+   <permissions>
+    <permission name="conference.registration: Add Registration" acquire="False">
+    </permission>
+    <permission name="conference.registration: Add Registrations" acquire="False">
+         <role name="Manager"/>
+         <role name="Editor"/>
+    </permission>
+  </permissions>
+</rolemap>

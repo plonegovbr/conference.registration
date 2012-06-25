@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:grok="http://namespaces.zope.org/grok">
+
+    <includeDependencies package="." />
+    <include package=".behavior" />
+    
+    <include package="Products.CMFCore" file="permissions.zcml" />
+
+    <permission
+        id="conference.registration.AddRegistrations"
+        title="conference.registration: Add Registrations"
+      />
+    
+    <permission
+        id="conference.registration.AddRegistration"
+        title="conference.registration: Add Registration"
+      />
+
+    <grok:grok package="." />
+
+</configure>
