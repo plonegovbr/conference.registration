@@ -40,7 +40,7 @@ setup(name='conference.registration',
       install_requires=[
         'setuptools',
         'collective.grok',
-        'collective.profile',
+        'conference.profile',
         'plone.app.dexterity',
         'plone.formwidget.autocomplete',
         ],
